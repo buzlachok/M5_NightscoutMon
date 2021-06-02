@@ -50,7 +50,7 @@ void handleRoot() {
       if(httpCode == HTTP_CODE_OK) {
         webVer = http.getString();
       } else {
-        Serial.println("Error getting update.inf +");
+        Serial.println("Ошибка getting update.inf +");
       }
     } else {
       Serial.println("Error getting update.inf");
