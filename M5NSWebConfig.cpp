@@ -39,7 +39,7 @@ void handleRoot() {
   char timeStr[20];
   char dateStr[20];
 
-  Serial.println("Serving root web page");
+  Serial.println("root web page");
 
   if((WiFi.status() == WL_CONNECTED)) {
     http.begin(updateInfoURL);
